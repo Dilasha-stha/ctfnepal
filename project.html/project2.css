@@ -1,0 +1,40 @@
+
+.container{
+    text-align: center;
+   background-color:daark;
+   color: pink;
+   padding: 2%;
+   }
+
+   ul{
+   display:flex;
+   justify-content:space-between;
+   padding:5px;
+   background-color: pink;
+   }
+
+   li{
+   list-style:none;
+   padding:10px;
+   bordxr-radius:10px;
+   }
+
+   li:hover{
+   background-color:darkpink;
+   color:white;
+   cursor:pointer;
+   
+   }
+   a:li{
+   font-weight:bolder;
+   }
+   #me{
+   display:flex;
+   }
+   
+   footer{
+   background-colour: dark grey;
+   color:light grey;
+   display:flex;
+   }
+   

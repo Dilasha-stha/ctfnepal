@@ -1,0 +1,23 @@
+.d{
+    text-align: center;
+    padding: 20px;
+    
+
+}
+d:hover{
+    background-color: darkred;
+    font-weight: bolder;
+}
+#hi{
+    border-radius:100%;
+}
+.container{
+     display: flex;
+     background-color: antiquewhite;
+     font-family: 'Times New Roman', Times, serif;
+     
+     
+}
+.br{
+    font-weight: bolder;
+}

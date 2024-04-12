@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dilasha.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+          <IMG
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cv.html">About</a></li>
+            <li><a href="experience.html">Qualification</a></li>
+            <li><a href="dilashaa.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Dilasha</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="cv.html" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="experience.html" onclick="toggleMenu()">Qualification</a></li>
+            <li><a href="dilashaa.html">Projects</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div> 
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/p3.jpg" alt="Dilasha profile picture" />
+        </div>
+        <div class="section__text">
+          <h1 class="title">Dilasha Shrestha</h1>
+          <p class="section__text__p2">Student</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/cv.html')"
+            >
+              View CV
+            </button>
+              
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/R.png"
+              alt="My insta profile"
+              class="icon"
+              onclick="location.href=" "
+            />
+            <img
+              src="./assets/R (1).png"
+              alt="My Facebook profile"
+              class="icon"
+              onclick="location.href="https://www.facebook.com/shrestha.dilasha.73?mibextid=ZbWKwL "
+            />
+          </div>
+        </div>
+      </section>
+
+
+</body>
+</html>
